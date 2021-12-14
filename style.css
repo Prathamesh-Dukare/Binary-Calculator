@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(to right, #1a768b, #5cc133);
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.container{
+    width: 33%;
+    margin: 0 auto;
+    margin-top: 5rem
+}
+#res{
+    background-color: lightgray;
+    border: 3px solid black;
+    height: 48px;
+    font-size: 20px;
+    font-size: 2em;
+}
+#btn0 , #btn1{
+    background-color: lightgreen;
+    color: brown;
+}
+#btnClr , #btnEql{
+    background-color: green;
+    color: white;
+}
+#btnSum , #btnMul ,#btnSub,#btnDiv{
+    background-color: black;
+    color: red;
+}
+button{
+    width: 25%;
+    height: 36px;
+    font-size: 18px;
+    float: left;
+}
